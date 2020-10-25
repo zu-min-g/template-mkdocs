@@ -1,0 +1,31 @@
+site_name: MkDocs テンプレート
+theme:
+  language: 'ja'
+  name: 'material'
+  palette:
+    scheme: slate
+    primary: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - footnotes
+  - pymdownx.emoji
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js
+  - https://d3js.org/d3.v6.min.js
+  - assets/js/extra.js
