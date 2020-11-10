@@ -1,0 +1,17 @@
+image:
+    name: squidfunk/mkdocs-material
+    entrypoint: [""]
+
+pages:
+    script:
+        - mkdocs build
+        - mv site/ public/
+    artifacts:
+        paths:
+            - public
+    only:
+        refs:
+            - master
+        changes:
+            - docs/**
+            - mkdocs.yml
