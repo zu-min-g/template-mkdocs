@@ -1,0 +1,18 @@
+body, input {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", Roboto, -apple-system, Helvetica, Arial, sans-serif;;
+}
+
+.mermaid svg {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/** クラス図のテキスト */
+.mermaid .cardinality text {
+  fill: #eee;
+}
+
+/** ガントチャート完了の背景色 */
+.mermaid .task.done0, .mermaid .task.doneCrit0 {
+  fill: rgb(168, 168, 168) !important;
+}
