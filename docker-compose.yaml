@@ -1,8 +1,5 @@
 version: "3"
 
-volumes:
-  vendor:
-    driver: local
 services:
   mkdocs:
     image: squidfunk/mkdocs-material
