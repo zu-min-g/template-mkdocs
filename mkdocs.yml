@@ -1,4 +1,5 @@
 site_name: MkDocs テンプレート
+site_url: https://zu-min-g.github.io/template-mkdocs/
 theme:
   language: 'ja'
   name: 'material'
