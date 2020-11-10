@@ -9,14 +9,14 @@
 にアクセスできるようになります。
 
 ```
-docker-compose up -d
+docker-compose up
 ```
 
 ドキュメントをビルドする場合は以下のコマンドを使用します。
 site フォルダにファイルが生成されます。
 
 ```
-docker-compose exec mkdocs mkdocs build
+docker-compose run mkdocs build
 ```
 
 ## Python の場合
@@ -47,5 +47,5 @@ mkdocs build
 
 ```
 mkdocs build --no-directory-urls
-docker-compose exec mkdocs mkdocs build --no-directory-urls
+docker-compose run mkdocs build --no-directory-urls
 ```
