@@ -24,9 +24,9 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
 extra_css:
-  - assets/css/extra.css
+  - assets/stylesheets/extra.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js
   - https://d3js.org/d3.v6.min.js
-  - assets/js/extra.js
+  - assets/javascripts/extra.js
