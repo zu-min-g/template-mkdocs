@@ -1,5 +1,7 @@
 # MkDocs のテンプレート
 
+[デモはこちら](https://zu-min-g.github.io/template-mkdocs/)
+
 導入しているプラグインやスクリプトの詳細は [こちら](docs/index.md) を参照してください。
 
 ## Docker の場合
