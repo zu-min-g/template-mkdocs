@@ -4,8 +4,16 @@ theme:
   language: 'ja'
   name: 'material'
   palette:
-    scheme: slate
-    primary: indigo
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 暗くする
+      primary: indigo
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 明るくする
+      primary: indigo
   font:
     text: Roboto
     code: Roboto Mono
