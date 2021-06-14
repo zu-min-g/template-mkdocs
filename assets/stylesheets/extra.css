@@ -8,11 +8,6 @@ body, input {
 }
 
 /** クラス図のテキスト */
-.mermaid .cardinality text {
-  fill: #eee;
-}
-
-/** ガントチャート完了の背景色 */
-.mermaid .task.done0, .mermaid .task.doneCrit0 {
-  fill: rgb(168, 168, 168) !important;
+[data-md-color-scheme="slate"] .mermaid text {
+  fill: #eee !important;
 }
