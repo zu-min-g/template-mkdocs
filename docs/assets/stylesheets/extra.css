@@ -2,9 +2,29 @@ body, input {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", Roboto, -apple-system, Helvetica, Arial, sans-serif;;
 }
 
+/* リスト 行間狭め */
+body .md-typeset ol li, body .md-typeset ul li {
+  margin-bottom: 0;
+}
+
+/* リスト 行間狭め */
+body .md-typeset ol li ol, body .md-typeset ol li ul, body .md-typeset ul li ol, body .md-typeset ul li ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .mermaid svg {
   overflow: hidden;
   max-width: 100%;
+}
+
+body .md-typeset h1,
+body .md-typeset h2,
+body .md-typeset h3,
+body .md-typeset h4,
+body .md-typeset h5,
+body .md-typeset h6 {
+  font-weight: 600;
 }
 
 /** クラス図のテキスト */
