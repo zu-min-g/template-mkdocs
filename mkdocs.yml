@@ -18,8 +18,13 @@ theme:
     text: Roboto
     code: Roboto Mono
 markdown_extensions:
+  - toc:
+      slugify: !!python/name:pymdownx.slugs.uslugify
   - pymdownx.highlight:
       linenums: true
+      extend_pygments_lang:
+        - name: jsonc
+          lang: js
   - footnotes
   - pymdownx.emoji
   - pymdownx.details
