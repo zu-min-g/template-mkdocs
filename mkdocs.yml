@@ -14,9 +14,7 @@ theme:
         icon: material/weather-night
         name: 明るくする
       primary: indigo
-  font:
-    text: Roboto
-    code: Roboto Mono
+  font: false
 markdown_extensions:
   - toc:
       permalink: true

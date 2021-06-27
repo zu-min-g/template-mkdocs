@@ -1,5 +1,9 @@
 body, input {
-    font-family: "Yu Gothic Medium", "游ゴシック Medium", Roboto, -apple-system, Helvetica, Arial, sans-serif;;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Yu Gothic Medium", YuGothic, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+code, pre, kbd {
+  font-family: SFMono-Regular,"SF Mono",Consolas,"Liberation Mono",Menlo,ui-monospace,monospace;
 }
 
 /* リスト 行間狭め */
