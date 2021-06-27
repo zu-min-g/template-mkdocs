@@ -51,5 +51,5 @@ gantt
 
 絵文字 :sunglasses:
 
-???+ note "ノート"
+!!! note "ノート"
     内容

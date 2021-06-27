@@ -19,6 +19,7 @@ theme:
     code: Roboto Mono
 markdown_extensions:
   - toc:
+      permalink: true
       slugify: !!python/name:pymdownx.slugs.uslugify
   - pymdownx.highlight:
       linenums: true
@@ -27,7 +28,7 @@ markdown_extensions:
           lang: js
   - footnotes
   - pymdownx.emoji
-  - pymdownx.details
+  - admonition
   - pymdownx.keys
   - pymdownx.tasklist:
       custom_checkbox: true
